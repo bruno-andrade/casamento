@@ -1,0 +1,67 @@
+/*
+Theme Name: Casamento
+Theme URI: https://github.com/bruno-andrade
+Author: Weef
+Author URI: https://github.com/bruno-andrade
+Version: 1.1.11 - adiciona pesquisa por CPF na listagem de inscritos
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+.image-bg{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: left;
+  background-position: center;
+  background-size: cover;
+}
+
+.image-container {
+  position: relative; /* Permite posicionar a imagem dentro deste contêiner */
+  height: 100%;
+  
+}
+
+.text-verde1 {
+  color: #C5CAAC !important;
+}
+
+.bg-verde1{
+  background-color: #C5CAAC;
+}
+
+.rosa1{
+  color: #E5C6C4;
+  background-color: #E5C6C4;
+}
+
+.rosa2{
+  color: #E6A6A5;
+  background-color: #E6A6A5;
+}
+
+.wedding-couple-section .gb {
+  background-color: #C5CAAC !important;
+}
+
+.precolandia {
+  background-color: #980326;
+  width: auto;
+  padding: 15px;
+  margin-top: 2rem;
+}
+
+.container-lojas{
+  display: flex !important;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.owl-item.active{
+  margin-right: 0 !important;
+}
+
+.site-footer {
+  background: url(../casamento/images/bruninhosensacao.jpeg) center center / cover no-repeat local !important;
+}
