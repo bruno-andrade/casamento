@@ -65,3 +65,15 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 .site-footer {
   background: url(../casamento/images/bruninhosensacao.jpeg) center center / cover no-repeat local !important;
 }
+
+.event {
+  max-height: 300px;
+}
+
+.img-holder{
+  height: 285px;
+}
+
+.gallery-section .grid img{
+  filter: none !important;
+}
