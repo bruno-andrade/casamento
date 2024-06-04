@@ -77,3 +77,16 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 .gallery-section .grid img{
   filter: none !important;
 }
+
+#website-show .website #cover h1{
+  font-family: 'Great Vibes' !important;
+  text-transform: none !important;
+  font-size: 115px !important;
+  color: #f9f9f9 !important;
+  line-height: 130px !important;
+  letter-spacing: 8px !important;
+}
+
+#website-show .website #cover h2 {
+  font-family: 'Great Vibes' !important;
+}

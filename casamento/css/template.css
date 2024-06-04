@@ -1,0 +1,555 @@
+@font-face {
+  font-family: Illusias;
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://assets.festalab.com.br/fonts/Illusias-Regular.woff2")
+      format("woff2"),
+    url("https://assets.festalab.com.br/fonts/Illusias-Regular.woff")
+      format("woff"),
+    url("https://assets.festalab.com.br/fonts/Illusias-Regular.ttf")
+      format("truetype");
+}
+@font-face {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://assets.festalab.com.br/fonts/Montserrat-Regular.woff2")
+      format("woff2"),
+    url("https://assets.festalab.com.br/fonts/Montserrat-Regular.woff")
+      format("woff"),
+    url("https://assets.festalab.com.br/fonts/Montserrat-Regular.ttf")
+      format("truetype");
+}
+#website-show .website h2 {
+  font-family: "Illusias";
+  font-size: 55px;
+  color: #7c5b38;
+  /* color: #d6d8c6; */
+  line-height: 46px;
+}
+#website-show .website figcaption,
+#website-show .website h3 {
+  font-family: "Montserrat";
+  font-size: 19px;
+  color: #ae8d8b;
+  line-height: 35px;
+}
+#website-show .website p,
+#website-show .website span {
+  color: #826649;
+}
+#website-show .website .slideshow__marker {
+  background-color: #a87170;
+}
+#website-show .website .slideshow__marker--active {
+  background-color: #fffaf5;
+}
+#website-show .website #navigation {
+  background-color: #f2d8d7;
+}
+#website-show .website #navigation svg {
+  fill: #a87170;
+}
+#website-show .website #navigation ul {
+  background-color: #f2d8d7;
+}
+#website-show .website #navigation li {
+  border-color: #ae8d8b;
+}
+#website-show .website #navigation a,
+#website-show .website #navigation span {
+  color: #a87170;
+}
+#website-show .website #navigation .section__buttons {
+  color: #a87170;
+}
+#website-show .website #message {
+  padding-top: 148px;
+  padding-bottom: 154px;
+  background-color: #fff;
+}
+#website-show .website #message h2 {
+  color: #ae8d8b;
+}
+#website-show .website #message svg {
+  fill: #E5C6C4;
+}
+#website-show .website #message .section__overlay--primary {
+  background-image: url("https://assets.festalab.com.br/templates/marriage/rustico-delicado/wedd/pattern01_overlay_top_left.png");
+  background-position: top left;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+#website-show .website #message .section__overlay--secondary {
+  background-image: url("https://assets.festalab.com.br/templates/marriage/rustico-delicado/wedd/pattern01_overlay_secondary_top_left.png");
+  background-position: top left;
+  background-size: 320px auto;
+  background-repeat: no-repeat;
+}
+#website-show .website #countdown p {
+  font-family: Illusias;
+}
+#website-show .website #countdown p,
+#website-show .website #countdown span {
+  color: #ae8d8b;
+}
+#website-show .website #countdown .section__block {
+  background-color: #f2d8d7;
+}
+#website-show .website #countdown .section__block:after {
+  color: #ae8d8b;
+}
+#website-show .website #about {
+  padding-top: 187px;
+  padding-bottom: 198px;
+  background-color: #f2d8d7;
+}
+#website-show .website #about figcaption {
+  font-family: "Montserrat";
+  font-size: 19px;
+  color: #7c5b38;
+  line-height: 38px;
+}
+#website-show .website #about .trix-content div {
+  font-size: 15px;
+  color: #7c5b38;
+  line-height: 36px;
+}
+#website-show .website #about .section__overlay--primary {
+  background-image: url("https://assets.festalab.com.br/templates/marriage/rustico-delicado/wedd/pattern02_overlay_top_right.png"),
+    url("https://assets.festalab.com.br/templates/marriage/rustico-delicado/wedd/pattern02_overlay_bottom_left.png");
+  background-position: top right, bottom left;
+  background-size: auto, 320px auto;
+  background-repeat: no-repeat;
+}
+#website-show .website #rsvp {
+  padding-top: 187px;
+  padding-bottom: 198px;
+  background-color: #a87170;
+  background-size: 100% auto;
+}
+#website-show .website #rsvp h2 {
+  color: #f2d8d7;
+}
+#website-show .website #rsvp h3 {
+  color: #f2d8d7;
+}
+#website-show .website #rsvp p {
+  color: #f2d8d7;
+}
+#website-show .website #rsvp .section__button {
+  background-color: #fffaf5;
+}
+#website-show .website #rsvp .section__guests .section__button {
+  background-color: transparent;
+  border-color: #f2d8d7;
+}
+#website-show .website #rsvp .section__guests a,
+#website-show .website #rsvp .section__guests p {
+  color: #f2d8d7;
+}
+#website-show .website #rsvp .section__guests svg {
+  fill: #E5C6C4;
+}
+#website-show .website #rsvp .section__overlay--primary {
+  background-image: url("https://assets.festalab.com.br/templates/marriage/rustico-delicado/wedd/pattern03_overlay_top_right.svg"),
+    url("https://assets.festalab.com.br/templates/marriage/rustico-delicado/wedd/pattern03_overlay_bottom_left.svg");
+  background-position: top 28px right, bottom 32px left;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+#website-show .website #info {
+  padding-top: 160px;
+  padding-bottom: 172px;
+  background-color: #fff;
+}
+#website-show .website #info h3 {
+  font-family: Illusias;
+  color: #E6A6A5;
+}
+#website-show .website #info h5 {
+  color: #7c5b38;
+}
+#website-show .website #info svg {
+  fill: #E6A6A5;
+}
+#website-show .website #info .section__button {
+  border-color: #7c5b38;
+  background-color: #fffaf5;
+}
+#website-show .website #info .section__button a {
+  color: #7c5b38;
+}
+#website-show .website #info .section__button svg {
+  fill: #7c5b38;
+}
+#website-show .website #info .calendar svg {
+  fill: #E6A6A5;
+}
+#website-show .website #info .calendar span {
+  color: #614222;
+}
+#website-show .website #info .calendar:before {
+  background-color: #f2d8d7;
+}
+#website-show .website #info .calendar__month {
+  font-family: "Illusias";
+  font-size: 51px;
+  font-weight: 400;
+  color: #a87170;
+}
+#website-show .website #info .calendar__starts-at span {
+  font-family: "Montserrat";
+  font-size: 18px;
+  line-height: 34px;
+  color: #a87170;
+}
+#website-show .website #info .calendar__starts-at:before {
+  background-color: #efc5c4;
+}
+#website-show .website #info .calendar__day--active span {
+  color: #fff;
+}
+#website-show .website #info .section__overlay--primary {
+  background-image: url("https://assets.festalab.com.br/templates/marriage/rustico-delicado/wedd/pattern04_overlay_top.png");
+  background-position: top right;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+#website-show .website #store {
+  padding-top: 80px;
+  padding-bottom: 160px;
+  background-color: #f2d8d7;
+}
+#website-show .website #store h3 {
+  font-size: 26px;
+  line-height: 36px;
+  color: #7c5b38;
+}
+#website-show .website #store .section__button {
+  border-color: #7c5b38;
+  background-color: #fffaf5;
+}
+#website-show .website #store .section__button a {
+  color: #7c5b38;
+}
+#website-show .website #store .section__button svg {
+  fill: #7c5b38;
+}
+#website-show .website #store .section__sub-header:before {
+  background-color: #eed3bc;
+}
+#website-show .website #store .section__overlay--primary {
+  top: -120px;
+  bottom: 0;
+  height: auto;
+  background-image: url("https://assets.festalab.com.br/templates/marriage/rustico-delicado/wedd/pattern04_overlay_secondary_bottom_left.svg");
+  background-position: top left;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+#website-show .website #store .section__overlay--secondary {
+  background-image: url("https://assets.festalab.com.br/templates/marriage/rustico-delicado/wedd/pattern05_overlay_top_left.png"),
+    url("https://assets.festalab.com.br/templates/marriage/rustico-delicado/wedd/pattern05_overlay_bottom_right.svg ");
+  background-position: top left, bottom 32px right;
+  background-size: auto, auto;
+  background-repeat: no-repeat;
+}
+#website-show .website #testimonials {
+  padding-top: 85px;
+  padding-bottom: 196px;
+  background-color: #ffffff;
+}
+#website-show .website #testimonials h2 {
+  color: #ae8d8b;
+}
+#website-show .website #testimonials h4 {
+  color: #ae8d8b;
+}
+#website-show .website #testimonials p {
+  color: #7c5b38;
+}
+#website-show .website #testimonials .section__button {
+  background-color: #fffaf5;
+  border-color: #E6A6A5;
+  color: #E6A6A5;
+}
+#website-show .website #testimonials .slideshow__stepper span {
+  background-color: #ae8d8b;
+}
+#website-show .website #testimonials .slideshow__stepper span svg {
+  stroke: #fff;
+}
+#website-show .website #testimonials .section__icon svg {
+  fill: #E6A6A5;
+}
+#website-show .website #testimonials .section__overlay--primary {
+  background-image: url("https://assets.festalab.com.br/templates/marriage/rustico-delicado/wedd/pattern06_overlay_top_right.png"),
+    url("https://assets.festalab.com.br/templates/marriage/rustico-delicado/wedd/pattern06_overlay_bottom_right.svg ");
+  background-position: top right, bottom right;
+  background-size: 320px auto, auto;
+  background-repeat: no-repeat;
+}
+#website-show .website #gallery {
+  padding-top: 80px;
+  padding-bottom: 188px;
+  background-color: #fff;
+}
+#website-show .website #gallery h2 {
+  color: #ae8d8b;
+}
+#website-show .website #gallery figcaption {
+  font-family: Montserrat;
+  font-size: 22px;
+  color: #ae8d8b;
+}
+#website-show .website #gallery .section__overlay--primary {
+  background-image: url("https://assets.festalab.com.br/templates/marriage/rustico-delicado/wedd/pattern07_overlay_bottom_left.png");
+  background-position: bottom left;
+  background-size: 225px auto;
+  background-repeat: no-repeat;
+}
+#website-show .website #tips {
+  padding-top: 80px;
+  padding-bottom: 110px;
+  background-color: #f2d8d7;
+}
+#website-show .website #tips h4 {
+  color: #7c5b38;
+}
+#website-show .website #tips h5 {
+  color: #7c5b38;
+}
+#website-show .website #tips p {
+  color: #7c5b38;
+}
+#website-show .website #tips .section__button {
+  background-color: #f2d8d7;
+  color: #ae8d8b;
+  border: 1px solid #ae8d8b;
+  box-shadow: none;
+}
+#website-show .website #tips .section__button:hover {
+  background-color: #ae8d8b;
+}
+#website-show .website #tips .slideshow__stepper svg {
+  stroke: #7c5b38;
+}
+#website-show .website #tips .section__overlay--primary {
+  top: -200px;
+  bottom: 0;
+  height: auto;
+  background-image: url("https://assets.festalab.com.br/templates/marriage/rustico-delicado/wedd/pattern08_overlay_top_left.svg");
+  background-position: top left;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+#website-show .website #tips .section__overlay--seconndary {
+  background-image: url("https://assets.festalab.com.br/templates/marriage/rustico-delicado/wedd/pattern08_overlay_top_left.svg");
+  background-position: top left;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+#website-show .website #thank-you {
+  padding-top: 172px;
+  padding-bottom: 192px;
+  background-color: #a87170;
+}
+#website-show .website #thank-you h2,
+#website-show .website #thank-you h3,
+#website-show .website #thank-you p {
+  color: #f2d8d7;
+}
+#website-show .website #thank-you figure {
+  color: #fff9d0;
+}
+#website-show .website #thank-you figure p {
+  color: #E6A6A5;
+}
+#website-show .website #thank-you svg {
+  fill: #E6A6A5;
+}
+#website-show .website #thank-you .section__guests {
+  background-color: #f2d8d7;
+}
+#website-show .website #thank-you .section__overlay--primary {
+  background-image: url("https://assets.festalab.com.br/templates/marriage/rustico-delicado/wedd/pattern09_overlay_top_left.svg"),
+    url("https://assets.festalab.com.br/templates/marriage/rustico-delicado/wedd/pattern09_overlay_bottom_right.svg ");
+  background-position: top 18px left, bottom 64px right;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+@media (min-width: 960px) {
+  #website-show .website h2 {
+    font-size: 80px;
+  }
+  #website-show .website figcaption,
+  #website-show .website h3 {
+    font-size: 26px;
+    line-height: 46px;
+  }
+  #website-show .website #message {
+    padding-top: 100px;
+    padding-bottom: 198px;
+  }
+  #website-show .website #message .section__sub-header {
+    padding: 0 180px;
+  }
+  #website-show .website #message .section__overlay--primary {
+    background-image: url("https://assets.festalab.com.br/templates/marriage/rustico-delicado/wedd/pattern01_overlay_top_left_desktop.svg");
+    background-position: top 36px left -24px;
+    background-size: auto 260px;
+    background-repeat: no-repeat;
+  }
+  #website-show .website #message .section__overlay--secondary {
+    background-image: url("https://assets.festalab.com.br/templates/marriage/rustico-delicado/wedd/pattern01_overlay_secondary_top_left_desktop.png");
+    background-position: top left;
+    background-size: auto 352px;
+    background-repeat: no-repeat;
+  }
+  #website-show .website #about {
+    padding-top: 73px;
+    padding-bottom: 55px;
+  }
+  #website-show .website #about figcaption {
+    font-size: 24px;
+    line-height: 34px;
+  }
+  #website-show .website #about .trix-content div {
+    font-size: 18px;
+    line-height: 36px;
+  }
+  #website-show .website #about .section__overlay--primary {
+    top: -160px;
+    bottom: 0;
+    height: auto;
+    background-image: url("https://assets.festalab.com.br/templates/marriage/rustico-delicado/wedd/pattern02_overlay_top_right_desktop.svg"),
+      url("https://assets.festalab.com.br/templates/marriage/rustico-delicado/wedd/pattern02_overlay_bottom_left_desktop.png ");
+    background-position: top right, bottom left;
+    background-size: auto 542px, 457px auto;
+    background-repeat: no-repeat;
+  }
+  #website-show .website #rsvp {
+    padding-top: 98px;
+    padding-bottom: 100px;
+  }
+  #website-show .website #rsvp .section__overlay--primary {
+    width: 1440px;
+    left: 50%;
+    margin-left: -720px;
+    background-image: url("https://assets.festalab.com.br/templates/marriage/rustico-delicado/wedd/pattern03_overlay_top_right_desktop.svg"),
+      url("https://assets.festalab.com.br/templates/marriage/rustico-delicado/wedd/pattern03_overlay_bottom_left_desktop.svg ");
+    background-position: top right, bottom left;
+    background-size: auto 548px;
+    background-repeat: no-repeat;
+  }
+  #website-show .website #rsvp .section__sub-header {
+    padding: 0 90px;
+  }
+  #website-show .website #info {
+    padding-top: 132px;
+    padding-bottom: 120px;
+  }
+  #website-show .website #info h2 {
+    font-size: 90px;
+    line-height: 72px;
+  }
+  #website-show .website #info .calendar__month {
+    font-size: 70px;
+  }
+  #website-show .website #info .calendar__starts-at span {
+    font-size: 36px;
+  }
+  #website-show .website #info .section__overlay--primary {
+    background-image: url("https://assets.festalab.com.br/templates/marriage/rustico-delicado/wedd/pattern04_overlay_top_right.png");
+    background-position: top right;
+    background-size: auto 537px;
+    background-repeat: no-repeat;
+  }
+  #website-show .website #store {
+    padding-top: 80px;
+    padding-bottom: 90px;
+  }
+  #website-show .website #store h3 {
+    font-size: 30px;
+    line-height: 36px;
+  }
+  #website-show .website #store .section__overlay--primary {
+    background-image: url("https://assets.festalab.com.br/templates/marriage/rustico-delicado/wedd/pattern05_overlay_left_desktop.png");
+    background-position: center left;
+    background-size: auto 663px;
+    background-repeat: no-repeat;
+  }
+  #website-show .website #store .section__overlay--secondary {
+    top: -492px;
+    bottom: 0;
+    height: auto;
+    background-image: url("https://assets.festalab.com.br/templates/marriage/rustico-delicado/wedd/pattern05_overlay_top_left_desktop.svg");
+    background-position: top left;
+    background-size: auto 663px;
+    background-repeat: no-repeat;
+  }
+  #website-show .website #testimonials {
+    padding-top: 70px;
+    padding-bottom: 120px;
+  }
+  #website-show .website #testimonials .section__overlay--primary {
+    background-image: url("https://assets.festalab.com.br/templates/marriage/rustico-delicado/wedd/pattern06_overlay_top_right_desktop.png");
+    background-position: top right;
+    background-size: auto 881px;
+    background-repeat: no-repeat;
+  }
+  #website-show .website #gallery {
+    padding-top: 60px;
+    padding-bottom: 84px;
+  }
+  #website-show .website #gallery .section__overlay--primary {
+    top: -80px;
+    bottom: 0;
+    height: auto;
+    background-image: url("https://assets.festalab.com.br/templates/marriage/rustico-delicado/wedd/pattern07_overlay_top_right_desktop.png"),
+      url("https://assets.festalab.com.br/templates/marriage/rustico-delicado/wedd/pattern07_overlay_secondary_bottom_left_desktop.png ");
+    background-position: top right, bottom left;
+    background-size: auto 172px, 36% auto;
+    background-repeat: no-repeat;
+  }
+  #website-show .website #tips {
+    padding-top: 78px;
+    padding-bottom: 48px;
+  }
+  #website-show .website #tips .section__overlay--primary {
+    top: -416px;
+    bottom: 0;
+    height: auto;
+    background-image: url("https://assets.festalab.com.br/templates/marriage/rustico-delicado/wedd/pattern08_overlay_top_left_desktop.svg");
+    background-position: top left;
+    background-size: auto 964px;
+    background-repeat: no-repeat;
+  }
+  #website-show .website #tips .section__overlay--secondary {
+    background-image: url("https://assets.festalab.com.br/templates/marriage/rustico-delicado/wedd/pattern08_overlay_bottom_right_desktop.png");
+    background-position: bottom right;
+    background-size: 56% auto;
+    background-repeat: no-repeat;
+  }
+  #website-show .website #thank-you {
+    padding-top: 88px;
+    padding-bottom: 62px;
+    background-size: auto 821px;
+    background-repeat: repeat;
+  }
+  #website-show .website #thank-you .section__overlay--primary {
+    background-image: url("https://assets.festalab.com.br/templates/marriage/rustico-delicado/wedd/pattern09_overlay_left_desktop.svg"),
+      url("https://assets.festalab.com.br/templates/marriage/rustico-delicado/wedd/pattern09_overlay_right_desktop.svg ");
+    background-position: top 56px left, bottom 56px right;
+    background-size: auto 331px;
+    background-repeat: no-repeat;
+    z-index: 0;
+  }
+}
+#modal_rsvp .modal__header {
+  background-color: #7c5b38;
+  border-bottom: 2px solid #f2d8d7;
+}
